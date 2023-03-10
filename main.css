@@ -1,0 +1,156 @@
+* {
+    margin: 30;
+    padding: 30;
+    box-sizing:border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Great Vibes', cursive;
+    font-weight:bolder;
+    font-size: xx-large;
+}
+
+body,input,textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+}
+
+header {
+    padding: 32px 0;
+    background-color: #b51111;
+    color: #ffffff;
+}
+
+header nav li {
+    display:inline;
+    margin-left: 60px;
+    font-size: 35px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 15px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #bd0000;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display:flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+display: block;
+width: 400px;
+margin-bottom: 8px;
+padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 32px;
+}
+
+form button {
+    background-color: #080910;
+    color:#373b3b;
+    border:none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b60505;
+}
+
+input:focus, textarea:focus {
+    outline-color: #a60707;
+}
+
+footer {
+    background-color: #a90606;
+    color:#ffffff;
+    padding: 32px 0;
+}
+
+img.resize{
+    height: auto;
+}
+
+#about  {
+    background-color: rgba(20, 20, 20) ;
+}
+
+#contact {
+    background-color: rgb(56, 1, 1);
+}
